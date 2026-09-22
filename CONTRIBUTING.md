@@ -13,3 +13,11 @@ Add a changeset for user-visible package changes. Do not commit dependencies,
 build output, secrets, captured third-party pages, or unlicensed binary assets.
 Automated tests do not justify claims of physical validation or accessibility
 certification.
+
+## Releases
+
+The `Release package` GitHub Actions workflow authenticates to npm through its
+stage-only OIDC trusted-publisher relationship. It runs the full checks and
+consumer tests, then places the package in npm's staging queue. A FoldLab npm
+maintainer must inspect and approve the staged package with 2FA or a passkey
+before it becomes public. The workflow does not require an `NPM_TOKEN` secret.

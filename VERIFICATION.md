@@ -11,6 +11,8 @@ The current `0.1.0` workspace was checked with:
 - shadcn registry generation for Base UI and Radix UI variants;
 - npm tarball path allowlisting and gzip budgets;
 - clean tarball imports in React 18.3.1 and React 19.1.1 consumers;
+- public registry metadata and a clean import of
+  `@foldlab/fold-viewer@0.1.0` after npm's publish-time scan;
 - `npm audit` with no reported vulnerabilities;
 - Chromium desktop/mobile and Firefox browser flows;
 - desktop/mobile screenshots compared with the approved visual reference.
