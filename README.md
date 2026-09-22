@@ -11,6 +11,10 @@ layout and branding under the host application's control.
 > **Project status:** `0.1.0` is an initial implementation for Fold Spec
 > `1.0.0-draft.1`. The package and public API are pre-1.0 and may change.
 
+[Live demo](https://foldlab.github.io/fold-viewer/) ·
+[npm package](https://www.npmjs.com/package/@foldlab/fold-viewer) ·
+[Fold Spec](https://github.com/FoldLab/fold-spec) · [Roadmap](ROADMAP.md)
+
 ## Install
 
 ```bash
