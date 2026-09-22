@@ -1,0 +1,6 @@
+node_modules
+dist
+coverage
+packages/fold-viewer/src/schema/document.schema.json
+apps/demo/public/examples
+tests/fixtures

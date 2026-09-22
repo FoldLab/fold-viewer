@@ -1,0 +1,25 @@
+name: Bug report
+description: Report reproducible viewer behavior
+title: '[Bug]: '
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      { label: Summary, description: What happened and what did you expect? }
+    validations: { required: true }
+  - type: textarea
+    id: reproduce
+    attributes:
+      {
+        label: Reproduction,
+        description: Link to a minimal non-private Fold Spec document or reproduction.,
+      }
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: Package and Fold Spec versions }
+    validations: { required: true }
+  - type: textarea
+    id: environment
+    attributes: { label: Browser and environment }
+    validations: { required: true }

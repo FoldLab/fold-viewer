@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "fold-viewer",
+  "homepage": "https://github.com/FoldLab/fold-viewer",
+  "items": [
+    {
+      "name": "fold-viewer-base",
+      "type": "registry:component",
+      "title": "Fold Viewer (Base UI)",
+      "description": "A composable Fold Spec viewer shell using the shadcn Base UI components.",
+      "dependencies": ["@foldlab/fold-viewer", "lucide-react"],
+      "registryDependencies": ["button", "slider", "toggle-group"],
+      "files": [
+        {
+          "path": "registry/base/fold-viewer.tsx",
+          "type": "registry:component",
+          "target": "components/fold-viewer.tsx"
+        }
+      ]
+    },
+    {
+      "name": "fold-viewer-radix",
+      "type": "registry:component",
+      "title": "Fold Viewer (Radix UI)",
+      "description": "A composable Fold Spec viewer shell using the shadcn Radix UI components.",
+      "dependencies": ["@foldlab/fold-viewer", "lucide-react"],
+      "registryDependencies": ["button", "slider", "toggle-group"],
+      "files": [
+        {
+          "path": "registry/radix/fold-viewer.tsx",
+          "type": "registry:component",
+          "target": "components/fold-viewer.tsx"
+        }
+      ]
+    }
+  ]
+}
