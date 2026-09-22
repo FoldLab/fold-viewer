@@ -17,9 +17,10 @@ layout and branding under the host application's control.
 npm install @foldlab/fold-viewer react react-dom three
 ```
 
-The scoped package has not been claimed on npm yet. Until the first verified
-release, use this workspace or a Git dependency; do not assume the name already
-resolves from the public registry.
+The package is prepared for public release from the FoldLab npm organization.
+Until the initial publish completes, use this workspace or a Git dependency;
+releases remain pre-1.0 while the component API and Fold Spec integration
+mature.
 
 ## Quick start
 
