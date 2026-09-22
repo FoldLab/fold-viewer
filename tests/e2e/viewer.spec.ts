@@ -6,6 +6,9 @@ test('loads the crane, exposes controls, and switches to synchronized text', asy
   await page.goto('/');
   const viewer = page.locator('.fold-viewer');
   await expect(viewer).toBeVisible();
+  await expect(
+    page.getByText('Loaded from a validated Fold Spec document.'),
+  ).toBeVisible({ timeout: 15_000 });
   await expect(viewer.getByText('Step 43', { exact: true })).toBeVisible();
   await expect(
     viewer.getByRole('button', { name: /play animation/i }),
